@@ -1,10 +1,10 @@
-## awilix-example
+## Awilix-Example
 
 This project show how you can replace "services/modules" using DI with awilix.
 
 To run this project, make shure you have at least node 8 installed.
 
-### setup
+### Setup
 
 Clone this repo, then install dependencies:
 
@@ -12,7 +12,7 @@ Clone this repo, then install dependencies:
 npm i
 ```
 
-### running
+### Running
 
 This would be the normal execution, without replace any module.
 Check `index.js` and `container.js` file to see how the app setup and execution is made.
@@ -21,7 +21,7 @@ Check `index.js` and `container.js` file to see how the app setup and execution 
 node index.js
 ```
 
-### testing
+### Testing
 
 On the `service.test.js` you can see how module replacement it's done.
 
